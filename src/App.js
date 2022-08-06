@@ -1,4 +1,3 @@
-import './App.css';
 import React, { useState, useEffect } from "react";
 import TodoItem from "./modules/TodoItem";
 
@@ -8,7 +7,7 @@ function App() {
   const [todoTitle, setTodoTitle] = useState('')
 
     useEffect(() => {
-        console.log('todoTitle', todoTitle)
+        console.log('render todo list')
     })
     const handleAddButton = () => {
         console.log('todoTitle', todoTitle)
@@ -20,9 +19,9 @@ function App() {
         //setTodos(newArr)
     }
   return (
-    <div className="App">
+    <div className="todo-list">
       <h1>TODOS list</h1>
-        <div>
+        <div className="todo-input-container">
             <input type="text" onInput={(e) => {setTodoTitle(e.currentTarget.value)}}  placeholder="input todo"/>
             <button onClick={handleAddButton}>add</button>
         </div>
