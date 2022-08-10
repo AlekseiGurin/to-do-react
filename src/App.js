@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import TodoItem from "./modules/TodoItem";
-
+import { v4 as uuid } from 'uuid';
 
 function App() {
   const [todos, setTodos] = useState([])
@@ -9,6 +9,9 @@ function App() {
     useEffect(() => {
         console.log('render todo list')
     })
+    useEffect(() => {
+        console.log('didMount')
+    },[todos])
     const handleAddButton = () => {
         console.log('todoTitle', todoTitle)
         console.log('todos', todos)
@@ -26,7 +29,7 @@ function App() {
             <button onClick={handleAddButton}>add</button>
         </div>
       {!!todos.length && todos.map((item => (
-          <TodoItem key={item.index} title={item.title} />
+          <TodoItem key={uuid()} title={item.title} />
       )))}
     </div>
   );
