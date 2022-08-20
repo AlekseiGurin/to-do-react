@@ -2,6 +2,12 @@ import React, { useState, useEffect } from "react";
 import TodoItem from "./modules/TodoItem";
 import { v4 as uuid } from 'uuid';
 
+type TaskType = {
+    id: number,
+    title: string,
+    taskStartDate: number
+}
+
 function App() {
   const [todos, setTodos] = useState([])
   const [todoTitle, setTodoTitle] = useState('')
@@ -16,8 +22,9 @@ function App() {
         console.log('todoTitle', todoTitle)
         console.log('todos', todos)
         setTodos([...todos, {
-            id: Date.now(),
-            title: todoTitle
+            id: uuid(),
+            title: todoTitle,
+            taskStartDate: Date.now()
         }] )
         //setTodos(newArr)
     }
@@ -28,9 +35,9 @@ function App() {
             <input type="text" onInput={(e) => {setTodoTitle(e.currentTarget.value)}}  placeholder="input todo"/>
             <button onClick={handleAddButton}>add</button>
         </div>
-      {!!todos.length && todos.map((item => (
-          <TodoItem key={uuid()} title={item.title} />
-      )))}
+      {!!todos.length && todos.map((item: TaskType) => (
+          <TodoItem key={item.id} title={item.title} />
+      ))}
     </div>
   );
 }
