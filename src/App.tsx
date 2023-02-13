@@ -1,15 +1,15 @@
 import React, { useState, useEffect } from "react";
 import TodoItem from "./modules/TodoItem";
-import { v4 as uuid } from 'uuid';
+import { v4 as uuid } from "uuid";
 
 type TaskType = {
-    id: number,
+    id: string,
     title: string,
     taskStartDate: number
 }
 
 function App() {
-  const [todos, setTodos] = useState([])
+  const [todos, setTodos] = useState<TaskType[]>([])
   const [todoTitle, setTodoTitle] = useState('')
 
     useEffect(() => {
