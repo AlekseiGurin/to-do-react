@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12360f00-ab2f-4705-b373-ac9f308bf411" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/TodoItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/TodoItem.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../front-end" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../exportcenter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -73,7 +75,8 @@
       <workItem from="1676189444659" duration="3002000" />
       <workItem from="1676255876038" duration="7867000" />
       <workItem from="1676266197227" duration="6998000" />
-      <workItem from="1676338619521" duration="12277000" />
+      <workItem from="1676338619521" duration="24049000" />
+      <workItem from="1676434822972" duration="10849000" />
     </task>
     <task id="LOCAL-00001" summary="add change files">
       <created>1676263627726</created>
@@ -82,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676263627726</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add prettier">
+      <created>1676359105660</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676359105660</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -91,7 +101,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add todo" />
     <MESSAGE value="add change files" />
-    <option name="LAST_COMMIT_MESSAGE" value="add change files" />
+    <MESSAGE value="add prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="add prettier" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
