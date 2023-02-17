@@ -1,7 +1,7 @@
 {
   "extends": [
-    "airbnb",
-    "airbnb-typescript",
+    "airbnb-base",
+    "airbnb-typescript/base",
     "plugin:@typescript-eslint/recommended",
     "plugin:react-hooks/recommended",
     "plugin:import/errors",
@@ -9,14 +9,11 @@
     "plugin:import/typescript",
     "prettier"
   ],
-  "settings": {
-    "import/resolver": {
-      "node": {
-        "extensions": [".js", ".jsx", ".ts", ".tsx"],
-        "moduleDirectory": ["node_modules", "src/"]
-      }
-    }
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
   },
+
   "rules": {
     "quotes": ["error", "single"]
   },

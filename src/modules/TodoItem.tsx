@@ -1,10 +1,10 @@
 import React from 'react';
 
-interface todoProps {
+interface TodoProps {
     title: string
 }
 
-function TodoItem({ title }: todoProps) {
+function TodoItem({ title }: TodoProps) {
   return <div className="todo-item">
         <span>{title}</span> <button type="button">delete</button>
     </div>
