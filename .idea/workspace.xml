@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12360f00-ab2f-4705-b373-ac9f308bf411" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/store/slices/taskSlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/slices/taskSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/slices/taskSlice.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +31,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../toolkitTS/my-app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../portal" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -75,6 +75,13 @@
       <workItem from="1676620195333" duration="4123000" />
       <workItem from="1676688892996" duration="1254000" />
       <workItem from="1676725922683" duration="1541000" />
+      <workItem from="1676882914391" duration="607000" />
+      <workItem from="1676956237029" duration="2363000" />
+      <workItem from="1676974389194" duration="12000" />
+      <workItem from="1677029940660" duration="1243000" />
+      <workItem from="1677162618655" duration="174000" />
+      <workItem from="1677471225276" duration="331000" />
+      <workItem from="1677472594805" duration="3473000" />
     </task>
     <task id="LOCAL-00001" summary="add change files">
       <created>1676263627726</created>
