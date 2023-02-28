@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { v4 as uuid } from 'uuid';
 import TodoItem from './modules/TodoItem';
+import type { RootState } from './store/store';
+import { useAppSelector, useAppDispatch } from './store/hooks';
+
 
 type TaskType = {
   id: string;
@@ -9,10 +12,11 @@ type TaskType = {
 };
 
 function App() {
-  const [todos, setTodos] = useState<TaskType[]>([]);
   const [todoTitle, setTodoTitle] = useState('');
+  const todos = useAppSelector((state: RootState) => state.tasks)
+
   useEffect(() => {
-    console.log('render todo list');
+    console.log('render todo list todos', todos);
   });
   useEffect(() => {
     console.log('didMount');
@@ -20,14 +24,14 @@ function App() {
   const handleAddButton = () => {
     console.log('todoTitle', todoTitle);
     console.log('todos', todos);
-    setTodos([
-      ...todos,
-      {
-        id: uuid(),
-        title: todoTitle,
-        taskStartDate: Date.now(),
-      },
-    ]);
+    // setTodos([
+    //   ...todos,
+    //   {
+    //     id: uuid(),
+    //     title: todoTitle,
+    //     taskStartDate: Date.now(),
+    //   },
+    // ]);
     // setTodos(newArr)
   };
   return (

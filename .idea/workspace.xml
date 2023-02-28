@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="12360f00-ab2f-4705-b373-ac9f308bf411" name="Changes" comment="">
+    <list default="true" id="12360f00-ab2f-4705-b373-ac9f308bf411" name="Changes" comment="add work with store">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/slices/taskSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/slices/taskSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../portal" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -81,7 +82,9 @@
       <workItem from="1677029940660" duration="1243000" />
       <workItem from="1677162618655" duration="174000" />
       <workItem from="1677471225276" duration="331000" />
-      <workItem from="1677472594805" duration="3473000" />
+      <workItem from="1677472594805" duration="4179000" />
+      <workItem from="1677547859157" duration="3390000" />
+      <workItem from="1677576000092" duration="723000" />
     </task>
     <task id="LOCAL-00001" summary="add change files">
       <created>1676263627726</created>
@@ -104,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676455433816</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add work with store">
+      <created>1677482980482</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1677482980482</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,7 +125,8 @@
     <MESSAGE value="add change files" />
     <MESSAGE value="add prettier" />
     <MESSAGE value="add work with eslint" />
-    <option name="LAST_COMMIT_MESSAGE" value="add work with eslint" />
+    <MESSAGE value="add work with store" />
+    <option name="LAST_COMMIT_MESSAGE" value="add work with store" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
